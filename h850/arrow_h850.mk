@@ -23,6 +23,7 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Inherit from h815 device
 $(call inherit-product, device/lge/h850/device.mk)
+$(call inherit-product, device/lge/msm8996-common/msm8996.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := h850

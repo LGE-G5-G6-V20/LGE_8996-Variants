@@ -24,7 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := vs995,us996,h910,h915,elsa
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_vs995_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel/$(BOARD_KERNEL_IMAGE_NAME)
+TARGET_PREBUILT_KERNEL := $(DEViCE_PATH)/prebuilt/kernel/$(BOARD_KERNEL_IMAGE_NAME)
 TARGET_FORCE_PREBUILT_KERNEL := true
 
 # inherit from the proprietary version
